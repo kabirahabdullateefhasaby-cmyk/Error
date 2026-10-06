@@ -12,3 +12,7 @@ def error_hint(error_type):
     else:
         return "Read the traceback carefully"
 print(error_hint("NameError"))
+print(error_hint("TypeError"))
+print(error_hint("ValueError"))
+print(error_hint("ZeroDivisionError"))
+print(error_hint("IndexError"))
